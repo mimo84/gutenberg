@@ -48,7 +48,25 @@ wp.blocks.registerBlock( 'core/list', {
 			onClick( attributes, setAttributes ) {
 				setAttributes( { align: 'justify' } );
 			}
+		},
+		{
+			icon: 'editor-ul',
+			title: wp.i18n.__( 'Unordered list' ),
+			isActive: ( { } ) => false,
+			onClick( attributes, setAttributes ) {
+				setAttributes( { listType: 'ul' } );
+			}
+		},
+		{
+			icon: 'editor-ol',
+			title: wp.i18n.__( 'Ordered list' ),
+			isActive: ( { } ) => false,
+			onClick( attributes, setAttributes ) {
+				debugger;
+				setAttributes( { listType: 'ol' } );
+			}
 		}
+
 	],
 
 	edit( { attributes, setAttributes } ) {

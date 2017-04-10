@@ -35,6 +35,14 @@ msgstr ""
 msgid "List"
 msgstr ""
 
+#: editor/blocks/list/index.js:54
+msgid "Unordered list"
+msgstr ""
+
+#: editor/blocks/list/index.js:62
+msgid "Ordered list"
+msgstr ""
+
 #: editor/header/mode-switcher/index.js:30
 msgid "Visual"
 msgstr ""
